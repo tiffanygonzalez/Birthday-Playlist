@@ -39,8 +39,8 @@ def make_playlist():
         auth_manager = SpotifyOAuth(
             scope = "playlist-modify-private",
             redirect_uri = "http://example.com",
-            client_id = '56e7f90d1b904464a3dc5bc7a1099db6',
-            client_secret = 'e6c49dfb89d74cf5ad38942fde885693',
+            client_id = '#',
+            client_secret = '#',
             show_dialog = True,
             cache_path = "token.txt"
         )
